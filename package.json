@@ -1,0 +1,27 @@
+{
+  "name": "resin-bbb",
+  "version": "1.0.0",
+  "description": "Express Server on BBB through Resin.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rosterloh/resin-bbb.git"
+  },
+  "author": "Richard Osterloh <richard.osterloh@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosterloh/resin-bbb/issues"
+  },
+  "homepage": "https://github.com/rosterloh/resin-bbb#readme",
+  "dependencies": {
+    "bunyan": "^1.4.0",
+    "cookie": "^0.1.3",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "uuid": "^2.0.1"
+  }
+}
